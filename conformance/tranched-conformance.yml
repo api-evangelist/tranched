@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://tranched.fi/security
+# Standards / compliance posture asserted from Tranched's published Security page.
+# No public OpenAPI is available (product docs at docs.tranched.fi are 401-gated),
+# so API-level conformance (oauth2/oidc/rfc9457/etc.) cannot be derived.
+standards:
+- id: gdpr
+  conforms: true
+  evidence: Security page claims UK GDPR and EU GDPR compliance.
+- id: soc2-type2
+  conforms: false
+  evidence: Attestation in progress for Tranched (held by GCP infrastructure).
+- id: iso-27001
+  conforms: false
+  evidence: Certification in progress for Tranched (held by GCP infrastructure).
+- id: iso-22301
+  conforms: false
+  evidence: Business Continuity Management held by GCP, not by Tranched directly.

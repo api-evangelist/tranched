@@ -1,7 +1,15 @@
 aid: tranched
 name: Tranched
-description: Tranched is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tranched is a London-based fintech building an embedded, on-chain securitisation
+  platform that connects fintech lenders and loan originators directly to professional
+  investors. Its "Deep Tokenisation" approach represents loans as on-chain tokens governed
+  by Smart Loan Agreements and automated waterfall contracts, letting originators structure
+  and launch institutional-grade asset-based financing transactions up to 90% faster and
+  at lower cost than traditional securitisation, with automated compliance, reporting, and
+  monitoring. Tranched connects to a lender's loan management system via API integration to
+  retrieve the data required for assigning and monitoring loans. Founded in 2023 by Clement
+  Larrue and Michael Elalouf, the company raised a $3.4M pre-seed round led by Speedinvest
+  in November 2024.
 url: https://raw.githubusercontent.com/api-evangelist/tranched/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,69 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Securitization
+- Asset-Based Finance
+- Tokenization
+- Blockchain
+- Private Credit
+- Capital Markets
+- Lending
+image: https://framerusercontent.com/images/8ejuTK9z24sDXLuwNyJmx0I6E.png
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/tranched-domain-security.yml
+- type: Website
+  url: https://tranched.fi/
+- type: Blog
+  url: https://tranched.fi/blog
+- type: Support
+  url: https://tranched.fi/speaktotheteam
+- type: TermsOfService
+  url: https://tranched.fi/terms-of-service
+- type: PrivacyPolicy
+  url: https://tranched.fi/privacy-policy
+- type: Compliance
+  url: https://tranched.fi/security
+- type: Security
+  url: https://tranched.fi/security
+- type: VulnerabilityDisclosure
+  url: security/tranched-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/tranched-trust-center.yml
+- type: Conformance
+  url: conformance/tranched-conformance.yml
+- type: WellKnown
+  url: well-known/tranched-well-known.yml
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/tranched
+- type: Twitter
+  url: https://twitter.com/TranchedFi
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://tranched.fi/
+host: https://tranched.fi
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on tranched.fi as of the probe
+  date. Tranched is a pre-seed B2B fintech; its product application is behind
+  docs.tranched.fi which returns HTTP 401 (private, authentication-gated) and it
+  exposes no public API surface. Absence recorded as valid data.

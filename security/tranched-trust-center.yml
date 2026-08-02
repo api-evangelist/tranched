@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: https://tranched.fi/security
+url: https://tranched.fi/security
+# Tranched publishes a Security page describing its security program and compliance
+# posture. It is a pre-seed company; several certifications are IN PROGRESS for
+# Tranched itself, while the underlying cloud (Google Cloud Platform) already holds them.
+certifications:
+- name: GDPR
+  scope: Tranched
+  status: compliant
+  detail: UK GDPR and EU GDPR compliance claimed.
+- name: SOC 2 Type II
+  scope: Tranched
+  status: in-progress
+  detail: Attestation being pursued for Tranched; held by GCP infrastructure provider.
+- name: ISO/IEC 27001
+  scope: Tranched
+  status: in-progress
+  detail: Certification being pursued for Tranched; held by GCP infrastructure provider.
+- name: ISO 22301
+  scope: infrastructure (GCP)
+  status: inherited
+  detail: Business Continuity Management held by GCP.
+program:
+  penetration_testing: annual external penetration testing
+  mfa: multi-factor authentication enforced
+  encryption_at_rest: AES-256
+  encryption_in_transit: TLS 1.2+
+  incident_response: formal incident response plan; 72-hour breach notification
+  availability_commitment: '99%'
+evidence:
+- source: https://tranched.fi/security
+  keywords:
+  - soc 2 type ii
+  - iso 27001
+  - iso 22301
+  - gdpr
+  - penetration testing
+  - incident response
