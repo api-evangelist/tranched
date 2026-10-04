@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Securitization
 - Asset-Based Finance
@@ -64,6 +64,7 @@ tags_raw:
 - Private Credit
 - Capital Markets
 - Lending
+- Financial-Services
 image: https://framerusercontent.com/images/8ejuTK9z24sDXLuwNyJmx0I6E.png
 apis: []
 maintainers:
